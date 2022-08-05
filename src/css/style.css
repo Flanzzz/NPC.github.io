@@ -1,0 +1,147 @@
+body{
+    font-family: Arial, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+
+.logo{
+    
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 389px;              /*Верхняя строка*/
+    float: left;
+}
+
+.menu{
+    
+    float: left;
+    padding-left: 431px;
+}
+
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: #fff;                            /*Навигация*/
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+    
+    
+}
+
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/main.png) 90% 100%/ auto 85% no-repeat  , url(../img/%D1%84%D0%BE%D0%BD.png) center/cover no-repeat ;        /*Главный фон*/
+}
+
+.title__conteiner{
+    float: left;
+    margin: 432px 0px 0px 404px;
+    color: #2c384a;                            /*Заголовок с именем*/
+    text-align: center;
+    
+}
+
+.title__conteiner h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title__conteiner h4{
+    margin: 30px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.title__conteiner input{
+    
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;                         /*Кнопки титульник*/
+    padding: 0px 16px;
+    margin: 50px 14px 0px 14px;
+}
+
+.title__about{
+    padding-left: 896px;
+    padding-top: 108px;
+    padding-bottom: 15px;
+    color: #263244;                
+    font-size: 25px;
+    background: url(../img/Underlinetitle.png) bottom no-repeat;
+    text-transform: uppercase;
+    
+}
+
+.Description{
+    background: url(../img/blackphoto.png) 855px 20px  no-repeat ;
+    padding-top: 200px;
+}
+.Description p{
+    margin: 30px;
+    padding-left: 596px;
+    max-width: 1325px;
+    
+}
+.Description input{
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    border: 2px solid  #6f707e;
+    background: url(../img/rezum.png) 7px 50% no-repeat;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 37px 887px 97px;
+    
+}
+
+.what__can{
+    width: 100%;
+    height: 100%;
+    background: url(../img/rupor.png)1195px 440px no-repeat,url(../img/rocket.png)980px 440px no-repeat,url(../img/znak.png) 730px 440px no-repeat,url(../img/nout.png)493px 440px no-repeat,url(../img/Underlinetitle.png)925px 161px no-repeat,url(../img/back.png) center/cover no-repeat;
+}
+
+.what__can h3{
+    padding-left: 873px;
+    padding-top: 107px;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #263244;
+    position: relative;
+}
+.abilitys {
+    position: absolute;
+    top: 2130px;
+    column-count: 4;
+    left: 417px;
+
+    
+
+}
+
+
+.abilitys h4{
+    font-size: 17px;
+    color: #d49150;
+    padding-left: 57px;
+    padding-bottom: 21px;
+}
+
+.abilitys p{
+    text-align: center;
+    font-size: 12px;
+    max-width: 219px;
+    line-height: 15px;
+}
